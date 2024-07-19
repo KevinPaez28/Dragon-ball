@@ -4,6 +4,10 @@
   padding:0;
   box-sizing: border-box;
 }
+:root{
+  --color:Green;
+  --border-radius:10px
+}
 .presentacion{
   color: rgb(0, 0, 0);
   background-color: rgba(185, 119, 20, 0.664);
@@ -21,7 +25,7 @@ body{
 .box1{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px;
@@ -68,7 +72,7 @@ button{
 .box2{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -86,7 +90,7 @@ button{
 .box3{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -103,7 +107,7 @@ button{
 .box4{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -122,7 +126,7 @@ button{
 .box5{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -140,7 +144,7 @@ button{
 .box6{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -157,7 +161,7 @@ button{
 .box7{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -174,7 +178,7 @@ button{
 .box8{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -191,7 +195,7 @@ button{
 .box9{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -208,7 +212,7 @@ button{
 .box10{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -225,7 +229,7 @@ button{
 .box11{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -243,7 +247,7 @@ button{
 .box12{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -261,7 +265,7 @@ button{
 .box13{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -279,7 +283,7 @@ button{
 .box14{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -297,7 +301,7 @@ button{
 .box15{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -315,7 +319,7 @@ button{
 .box16{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -333,7 +337,7 @@ button{
 .box17{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -351,7 +355,7 @@ button{
 .box18{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -370,7 +374,7 @@ button{
 .box19{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -388,7 +392,7 @@ button{
 .box20{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -406,7 +410,7 @@ button{
 .box21{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -423,7 +427,7 @@ button{
 .box22{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -440,7 +444,7 @@ button{
 .box23{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -457,7 +461,7 @@ button{
 .box24{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -474,7 +478,7 @@ button{
 .box25{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -491,7 +495,7 @@ button{
 .box26{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -508,7 +512,7 @@ button{
 .box27{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -525,7 +529,7 @@ button{
 .box28{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -542,7 +546,7 @@ button{
 .box29{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -559,7 +563,7 @@ button{
 .box30{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -576,7 +580,7 @@ button{
 .box31{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -593,7 +597,7 @@ button{
 .box32{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -610,7 +614,7 @@ button{
 .box33{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -627,7 +631,8 @@ button{
 .box34{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
+  
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -644,7 +649,8 @@ button{
 .box35{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -661,7 +667,7 @@ button{
 .box36{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -678,7 +684,7 @@ button{
 .box37{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -695,7 +701,7 @@ button{
 .box38{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -712,7 +718,7 @@ button{
 .box39{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -729,7 +735,7 @@ button{
 .box40{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -746,7 +752,7 @@ button{
 .box41{
  width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -763,7 +769,7 @@ button{
 .box42{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -780,7 +786,7 @@ button{
 .box43{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -797,7 +803,7 @@ button{
 .box44{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -814,7 +820,7 @@ button{
 .box45{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -831,7 +837,7 @@ button{
 .box46{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -848,7 +854,7 @@ button{
 .box47{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -865,7 +871,7 @@ button{
 .box48{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -882,7 +888,7 @@ button{
 .box49{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -899,7 +905,7 @@ button{
 .box50{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -916,7 +922,7 @@ button{
 .box51{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -933,7 +939,7 @@ button{
 .box52{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -950,7 +956,7 @@ button{
 .box53{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -967,7 +973,7 @@ button{
 .box54{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -984,7 +990,7 @@ button{
 .box55{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
@@ -1001,7 +1007,7 @@ button{
 .box56{
   width:350px;
   height:470px;
-  background-color:#00000048;
+  background-color:var(--color);
   margin: 10px 5px 10px 5px;
   padding: 10px  15px ;
   border-radius:10px 10px 10px 10px ;
